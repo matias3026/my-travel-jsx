@@ -5,10 +5,14 @@ nav ul {
 }
 
 nav li {
-  cursor: pointer;
   font-weight: 500;
 }
 
-nav li:hover {
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav a:hover {
   text-decoration: underline;
 }
