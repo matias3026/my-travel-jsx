@@ -1,4 +1,5 @@
-// src/components/Footer/Footer.jsx
+import './Footer.css'
+
 const Footer = () => {
   const anioActual = new Date().getFullYear()
 

@@ -1,10 +1,12 @@
 // src/components/Header/Header.jsx
 import Nav from '../Nav/Nav'
 
+import './Header.css'
+
 const Header = () => {
   return (
     <header>
-      <h1>MyTravelJSX</h1>
+      <h1>MyTravelJSX ✈️</h1>
       <Nav />
       <div className="header-actions">
         <button>🛒 Carrito (0)</button>
