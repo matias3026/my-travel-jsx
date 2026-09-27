@@ -1,6 +1,6 @@
 const ItemDetail = () => {
   return (
-    <div>Header</div>
+    <div>ItemDetail</div>
   )
 }
 

@@ -1,6 +1,6 @@
 const ItemDetailContainer = () => {
   return (
-    <div>Header</div>
+    <div>ItemDetailContainer</div>
   )
 }
 
