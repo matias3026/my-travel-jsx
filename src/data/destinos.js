@@ -82,4 +82,12 @@ const destinos = [
   },
 ]
 
+export const getDestinos = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(destinos)
+    }, 500) // simula medio segundo de "espera de red"
+  })
+}
+
 export default destinos
