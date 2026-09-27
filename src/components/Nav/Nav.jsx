@@ -1,6 +1,13 @@
+// src/components/Nav/Nav.jsx
 const Nav = () => {
   return (
-    <div>Header</div>
+    <nav>
+      <ul>
+        <li>Inicio</li>
+        <li>Destinos</li>
+        <li>Contacto</li>
+      </ul>
+    </nav>
   )
 }
 
