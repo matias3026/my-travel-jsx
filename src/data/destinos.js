@@ -90,4 +90,14 @@ export const getDestinos = () => {
   })
 }
 
-export default destinos
+// export default destinos
+
+
+export const getDestinoPorId = (id) => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      const destino = destinos.find((d) => d.id === Number(id))
+      resolve(destino)
+    }, 500)
+  })
+}
