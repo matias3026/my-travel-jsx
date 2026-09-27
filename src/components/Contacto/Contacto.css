@@ -1,6 +1,62 @@
 
-.contacto-placeholder {
+.contacto {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: var(--blanco);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  padding: 3rem;
+}
+
+.contacto h2 {
   color: var(--azul-oscuro);
+}
+
+.contacto-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 1.5rem;
+}
+
+.contacto-form label {
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  color: var(--azul-oscuro);
+}
+
+.contacto-form input,
+.contacto-form textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.contacto-form input:focus,
+.contacto-form textarea:focus {
+  outline: 2px solid var(--azul-electrico);
+}
+
+.contacto-form button {
+  margin-top: 1.5rem;
+  background-color: var(--azul-electrico);
+  color: var(--blanco);
+  border: none;
+  padding: 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contacto-form button:hover {
+  background-color: var(--azul-francia);
+}
+
+.contacto-exito {
+  margin-top: 1.5rem;
+  color: var(--azul-electrico);
+  font-weight: 500;
 }
