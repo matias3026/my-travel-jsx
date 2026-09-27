@@ -1,0 +1,6 @@
+/* src/components/Home/Home.css */
+.home-placeholder {
+  text-align: center;
+  padding: 3rem;
+  color: var(--azul-oscuro);
+}
